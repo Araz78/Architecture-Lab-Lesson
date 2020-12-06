@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Araz\Desktop\lab_architect\p1
+T_opt
+VV=>bOV`ZmC=71_LaTa@_A2
+04 10 8 work full_adder dataflow 1
+=1-0800274cca5b-5fccbea8-141-5a4
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Efull_adder
+Z0 w1607253642
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\lab_architect\p2
+Z4 8C:/Users/Araz/Desktop/lab_architect/p2/Full_Adder.vhd
+Z5 FC:/Users/Araz/Desktop/lab_architect/p2/Full_Adder.vhd
+l0
+L4
+V1D2OJBQ0`RDjX0[N=YzkH2
+Z6 OL;C;10.1c;51
+32
+Z7 !s108 1607253653.555000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p2/Full_Adder.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/lab_architect/p2/Full_Adder.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 FBhZCnW4]?fPXD47XP_@00
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 10 full_adder 0 22 1D2OJBQ0`RDjX0[N=YzkH2
+l17
+L13
+VSXTH:g3j[Um_5UCdh5=j<3
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 fZ7<GmZKeRde^cD0KN^LR2
+!i10b 1
