@@ -1,0 +1,18 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Half_Adder IS
+  PORT(
+    A : IN STD_LOGIC;
+    B : IN STD_LOGIC;
+    S : OUT STD_LOGIC;
+    C : OUT STD_LOGIC);
+end Half_Adder;
+
+ARCHITECTURE dataflow1 OF Half_Adder IS
+
+BEGIN
+  S <= A XOR B;
+  A AND B => C;
+--  C <= A AND B;
+END dataflow1;
