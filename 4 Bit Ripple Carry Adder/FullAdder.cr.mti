@@ -1,0 +1,18 @@
+C:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bit_full_adder
+-- Compiling architecture structural of bit_full_adder
+-- Loading entity Full_Adder
+
+} {} {}} C:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Full_Adder
+-- Compiling architecture dataflow1 of Full_Adder
+
+} {} {}}

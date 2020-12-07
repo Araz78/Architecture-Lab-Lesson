@@ -1,0 +1,91 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Araz\Desktop\lab_architect\p2
+T_opt
+VM@i19k<Y18aZA:ZW1Qb;83
+04 10 9 work full_adder dataflow1 1
+=1-0800274cca5b-5fcdeb9d-1e2-f8
+Z1 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+Z2 OL;O;10.1c;51
+Z3 dC:\Users\Araz\Desktop\lab_architect\p2
+T_opt1
+Vo4EMB<e>YaYiMGKS5:eWk2
+04 14 10 work bit_full_adder structural 1
+=1-0800274cca5b-5fcdfc02-64-860
+R1
+n@_opt1
+R2
+Ebit_full_adder
+Z4 w1607334070
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 dC:\Users\Araz\Desktop\lab_architect\p3
+Z8 8C:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd
+Z9 FC:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd
+l0
+L4
+VVZ5DdoB@oVO0U7ihfT56_1
+Z10 OL;C;10.1c;51
+32
+Z11 !s108 1607334079.178000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd|
+Z13 !s107 C:/Users/Araz/Desktop/lab_architect/p3/bit_full_adder.vhd|
+Z14 o-work work -2002 -explicit
+Z15 tExplicit 1
+!s100 @=ebZWhFn39>BQUaeWNG>1
+!i10b 1
+Astructural
+Z16 DEx4 work 10 full_adder 0 22 =KAgn:R<Ag90RJ97ED@ic1
+R5
+R6
+DEx4 work 14 bit_full_adder 0 22 VZ5DdoB@oVO0U7ihfT56_1
+l27
+L23
+V4?]@V?5ePCQ:dT:?JZ>`E2
+R10
+32
+R11
+R12
+R13
+R14
+R15
+!s100 ;UW6<1GolXBCVa:lgcRRh2
+!i10b 1
+Efull_adder
+Z17 w1607330696
+R5
+R6
+R7
+Z18 8C:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd
+Z19 FC:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd
+l0
+L4
+V=KAgn:R<Ag90RJ97ED@ic1
+R10
+32
+Z20 !s108 1607330701.498000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd|
+Z22 !s107 C:/Users/Araz/Desktop/lab_architect/p3/Full_Adder.vhd|
+R14
+R15
+!s100 78T>@J`V:IHgb2^gBEheR1
+!i10b 1
+Adataflow1
+R5
+R6
+R16
+l16
+L14
+V@:455B]]T3PVQT2?SYgoK0
+R10
+32
+R20
+R21
+R22
+R14
+R15
+!s100 2Z]LIT1NTG:V38dKGib:b0
+!i10b 1
