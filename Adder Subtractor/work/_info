@@ -1,0 +1,76 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Araz\Desktop\lab_architect\p3
+Eaddsub
+Z0 w1607341809
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\lab_architect\p4
+Z4 8C:/Users/Araz/Desktop/lab_architect/p4/AddSub.vhd
+Z5 FC:/Users/Araz/Desktop/lab_architect/p4/AddSub.vhd
+l0
+L4
+VZ9zFiQdNjcNXgi?<VI6]J2
+!s100 <BI3115:VU[C75PL4^Ie42
+Z6 OL;C;10.1c;51
+32
+!i10b 1
+Z7 !s108 1607341814.649000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p4/AddSub.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/lab_architect/p4/AddSub.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+Astructural
+Z12 DEx4 work 10 full_adder 0 22 =KAgn:R<Ag90RJ97ED@ic1
+R1
+R2
+DEx4 work 6 addsub 0 22 Z9zFiQdNjcNXgi?<VI6]J2
+l32
+L24
+VHB[fn9<j]@3=VPOg<o]fb3
+!s100 ;amaJD;TU5NjMcWTOiCok3
+R6
+32
+!i10b 1
+R7
+R8
+R9
+R10
+R11
+Efull_adder
+Z13 w1607341739
+R1
+R2
+R3
+Z14 8C:/Users/Araz/Desktop/lab_architect/p4/Full_Adder.vhd
+Z15 FC:/Users/Araz/Desktop/lab_architect/p4/Full_Adder.vhd
+l0
+L4
+V=KAgn:R<Ag90RJ97ED@ic1
+R6
+32
+Z16 !s108 1607341756.556000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p4/Full_Adder.vhd|
+Z18 !s107 C:/Users/Araz/Desktop/lab_architect/p4/Full_Adder.vhd|
+R10
+R11
+!s100 78T>@J`V:IHgb2^gBEheR1
+!i10b 1
+Adataflow1
+R1
+R2
+R12
+l16
+L14
+V@:455B]]T3PVQT2?SYgoK0
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 2Z]LIT1NTG:V38dKGib:b0
+!i10b 1
