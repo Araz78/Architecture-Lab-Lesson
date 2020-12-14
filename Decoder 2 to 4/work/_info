@@ -1,0 +1,47 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Araz\Desktop\lab_architect\p5
+T_opt
+VMZYK;FzS29XK1m53nQ7md1
+04 7 8 work dec2to4 dataflow 1
+=1-0800274cca5b-5fd71cce-253-980
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Edec2to4
+Z0 w1607933112
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\lab_architect\p6
+Z4 8C:/Users/Araz/Desktop/lab_architect/p6/Dec2to4.vhd
+Z5 FC:/Users/Araz/Desktop/lab_architect/p6/Dec2to4.vhd
+l0
+L4
+V21af1LNGb0DQZBJe[j_U_3
+Z6 OL;C;10.1c;51
+32
+Z7 !s108 1607933117.330000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/lab_architect/p6/Dec2to4.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/lab_architect/p6/Dec2to4.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 n79AcTF6Add7cKAZ@:_<i2
+!i10b 1
+Adataflow
+R1
+R2
+DEx4 work 7 dec2to4 0 22 21af1LNGb0DQZBJe[j_U_3
+l13
+L11
+VZhE0Hb]cFb4LNJ0`V0YAf2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 E9ho^MMFo<W]Y0zcT;Q501
+!i10b 1

@@ -1,0 +1,9 @@
+C:/Users/Araz/Desktop/lab_architect/p5/Mux4to1.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/Araz/Desktop/lab_architect/p5/Mux4to1.vhd
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux4to1
+-- Compiling architecture dataflow of Mux4to1
+
+} {} {}}
