@@ -1,0 +1,96 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+ENTITY BCD IS 
+  PORT(
+       A         :  IN   STD_LOGIC_VECTOR(3 downto 0); 
+       B         :  IN   STD_LOGIC_VECTOR(3 downto 0); 
+       Cin       :  IN   STD_LOGIC;                    
+       Z         :  OUT  STD_LOGIC_VECTOR(3 downto 0); 
+       Cout_C1   :  OUT  STD_LOGIC;                   
+       Cout_C2   :  OUT  STD_LOGIC;                   
+       Out_AND1  :  OUT  STD_LOGIC;
+       Out_AND2  :  OUT  STD_LOGIC;
+       Out_OR    :  OUT  STD_LOGIC;
+       FINAL_SUM :  OUT  STD_LOGIC_VECTOR(3 downto 0)        
+      );
+END BCD;
+
+ARCHITECTURE structural OF BCD IS
+
+  SIGNAL  c1_1 : STD_LOGIC;
+  SIGNAL  c2_1 : STD_LOGIC;
+  SIGNAL  c3_1 : STD_LOGIC;
+  SIGNAL  SU_FA1 : STD_LOGIC_VECTOR(3 downto 0);  
+  SIGNAL  ST_FA1 : STD_LOGIC_VECTOR(3 downto 0); 
+  
+
+  SIGNAL  c1_2 : STD_LOGIC;
+  SIGNAL  c2_2 : STD_LOGIC;
+  SIGNAL  c3_2 : STD_LOGIC;
+  SIGNAL  SU_FA2 : STD_LOGIC_VECTOR(3 downto 0); 
+  SIGNAL  ST_FA2 : STD_LOGIC_VECTOR(3 downto 0); 
+  
+
+  SIGNAL Signal_OPRAND_AND1 : STD_LOGIC;
+  SIGNAL Signal_OPRAND_AND2 : STD_LOGIC;
+  SIGNAL Signal_OPRAND_OR   : STD_LOGIC;
+  
+
+  SIGNAL  a1 : STD_LOGIC_VECTOR(3 downto 0); 
+  SIGNAL  b1 : STD_LOGIC_VECTOR(3 downto 0);
+
+BEGIN
+  
+
+  FA0_top:entity work.fulladder(dataflow)
+  PORT MAP(X => A(0),Y => B(0),Ci => Cin,S => SU_FA1(0),C  =>  c1_1     );
+
+  FA1_top:entity work.fulladder(dataflow)
+  PORT MAP(X => A(1),Y => B(1),Ci => c1_1 ,S => SU_FA1(1), C  => c2_1     );
+ 
+  FA2_top:entity work.fulladder(dataflow)
+  PORT MAP(X  => A(2),Y => B(2),Ci => c2_1 ,S => SU_FA1(2), C  => c3_1    );
+
+  FA3_top:entity work.fulladder(dataflow)
+  PORT MAP(X => A(3),Y => B(3), Ci => c3_1 , S => SU_FA1(3), C  => Cout_C1);  
+
+
+  Signal_OPRAND_AND1  <= SU_FA1(3) AND SU_FA1(2);
+  Signal_OPRAND_AND2  <= SU_FA1(3) AND SU_FA1(1);
+  Signal_OPRAND_OR    <= Signal_OPRAND_AND1 OR Signal_OPRAND_AND2;
+  Out_AND1            <= Signal_OPRAND_AND1; 
+  Out_AND2            <= Signal_OPRAND_AND2; 
+  Out_OR              <= Signal_OPRAND_OR;  
+  
+
+  ST_FA1   <= SU_FA1;
+  Z        <= ST_FA1;
+
+  FA0_down:entity work.fulladder(dataflow)
+  PORT MAP(X => a1(0),Y => b1(0),Ci => Cin,S =>  SU_FA2(0),C  =>  c1_2     );
+
+  FA1_down:entity work.fulladder(dataflow)
+  PORT MAP(X => a1(1),Y => b1(1),Ci => c1_2 ,S => SU_FA2(1), C  => c2_2     );
+
+  FA2_down:entity work.fulladder(dataflow)
+  PORT MAP(X  => a1(2),Y => b1(2),Ci => c2_2 ,S => SU_FA2(2), C  => c3_2    );
+
+  FA3_down:entity work.fulladder(dataflow)
+  PORT MAP(X => a1(3),Y => b1(3), Ci => c3_2 , S => SU_FA2(3), C  => Cout_C2);  
+  
+  a1(0) <= ST_FA1(0); 
+  a1(1) <= ST_FA1(1); 
+  a1(2) <= ST_FA1(2); 
+  a1(3) <= ST_FA1(3); 
+  
+  b1(0) <= '0';
+  b1(1) <= Signal_OPRAND_OR; 
+  b1(2) <= Signal_OPRAND_OR; 
+  b1(3) <= '0';
+  
+
+  ST_FA2      <= SU_FA2;
+  FINAL_SUM   <= ST_FA2;
+
+
+END structural;

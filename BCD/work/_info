@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+T_opt
+VLH1O[NIN;ZLDkDcH>8<eH1
+04 3 10 work bcd structural 1
+=1-0800274cca5b-5fdc9afa-245-be8
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Ebcd
+Z0 w1608293078
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\for osi\p1
+Z4 8C:/Users/Araz/Desktop/for osi/p1/BCD.vhd
+Z5 FC:/Users/Araz/Desktop/for osi/p1/BCD.vhd
+l0
+L3
+VTkdc:SH3SU0K[R5[kKX2H0
+Z6 OL;C;10.1c;51
+32
+Z7 !s108 1608293100.738000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p1/BCD.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/for osi/p1/BCD.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 SFYUJYogzUGdPGbl2fc1E0
+!i10b 1
+Astructural
+Z12 DEx4 work 9 fulladder 0 22 ^]2iRl=oe_NLK2;]^Ga=E1
+R1
+R2
+DEx4 work 3 bcd 0 22 Tkdc:SH3SU0K[R5[kKX2H0
+l42
+L18
+V7_z]V4lM3BLjV:o;1EoQ_2
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 ?RJK<TCNPl4?S6d?[7`eT2
+!i10b 1
+Efulladder
+Z13 w1608292839
+R1
+R2
+R3
+Z14 8C:\Users\Araz\Desktop\for osi\p1\fulladder.vhd
+Z15 FC:\Users\Araz\Desktop\for osi\p1\fulladder.vhd
+l0
+L4
+V^]2iRl=oe_NLK2;]^Ga=E1
+R6
+32
+Z16 !s108 1608292839.405000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:\Users\Araz\Desktop\for osi\p1\fulladder.vhd|
+Z18 !s107 C:\Users\Araz\Desktop\for osi\p1\fulladder.vhd|
+R10
+R11
+!s100 N8Hc8@[?IXX6lGh5>7:B<3
+!i10b 1
+Adataflow
+R1
+R2
+R12
+l15
+L14
+VP8gJC32c_30d?Cgf;ZTmR1
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 3Q_k2R>U`1GJ[i5IV=jA@0
+!i10b 1
