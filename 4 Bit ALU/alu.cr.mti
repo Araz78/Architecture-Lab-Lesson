@@ -1,0 +1,36 @@
+{C:/Users/Araz/Desktop/for osi/p1/ALU_4BIT.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p1/ALU_4BIT.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ALU_4BIT
+-- Compiling architecture structural of ALU_4BIT
+-- Loading entity fulladder
+-- Loading entity mux4to1
+-- Loading entity mux2to1
+
+} {} {}} {C:/Users/Araz/Desktop/for osi/p1/mux2to1.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p1/mux2to1.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2to1
+-- Compiling architecture dataflow_mux2to1 of mux2to1
+
+} {} {}} {C:/Users/Araz/Desktop/for osi/p1/mux4to1.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p1/mux4to1.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4to1
+-- Compiling architecture dataflow_mux4to1 of mux4to1
+
+} {} {}} {C:/Users/Araz/Desktop/for osi/p1/fulladder.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p1/fulladder.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladder
+-- Compiling architecture dataflow of fulladder
+
+} {} {}}
