@@ -1,0 +1,119 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Araz\Desktop\for osi\p1
+T_opt
+V2[9`oc0@_nnIO[Q@34APQ0
+04 15 10 work simple_datapath structural 1
+=1-0800274cca5b-5fe1dfa7-3b9-468
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Emux4to1
+Z0 w1608638133
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\for osi\p5
+Z4 8C:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd
+Z5 FC:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd
+l0
+L4
+VIDKknYgY@OCAY8QkVeWE[2
+Z6 OL;C;10.1c;51
+32
+Z7 !s108 1608638154.592000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 `6@DQiI8m`InOZm:Q5e=n0
+!i10b 1
+Adataflow
+R1
+R2
+Z12 DEx4 work 7 mux4to1 0 22 IDKknYgY@OCAY8QkVeWE[2
+l17
+L16
+VWOK??O=V9cl5[WCn_GkB82
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 QV^zAO0oMH?P0RCRlc8f@0
+!i10b 1
+Eregne
+Z13 w1608638140
+R1
+R2
+R3
+Z14 8C:/Users/Araz/Desktop/for osi/p5/regne.vhd
+Z15 FC:/Users/Araz/Desktop/for osi/p5/regne.vhd
+l0
+L4
+VjDi;nQ3OdlWOBdKYi^Ell1
+R6
+32
+Z16 !s108 1608638149.437000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p5/regne.vhd|
+Z18 !s107 C:/Users/Araz/Desktop/for osi/p5/regne.vhd|
+R10
+R11
+!s100 h`0QBac1I;n]>V6]_XMCI2
+!i10b 1
+Abehavioral
+R1
+R2
+Z19 DEx4 work 5 regne 0 22 jDi;nQ3OdlWOBdKYi^Ell1
+l15
+L14
+V<af07]oK3zOCH52O1F`jY2
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 OXgMIBkj<@NWVD^A]^5kj0
+!i10b 1
+Esimple_datapath
+Z20 w1608638325
+R1
+R2
+R3
+Z21 8C:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd
+Z22 FC:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd
+l0
+L4
+Vn8W^C15__e5jc:C5>fQn;2
+R6
+32
+Z23 !s108 1608638325.431000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd|
+Z25 !s107 C:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd|
+R10
+R11
+!s100 47Tbb1i7Xb2:JZI43I?E<2
+!i10b 1
+Astructural
+R12
+R19
+R1
+R2
+DEx4 work 15 simple_datapath 0 22 n8W^C15__e5jc:C5>fQn;2
+l24
+L18
+VdPAo8:==GDk<CSAUUAgN^2
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 [bo7jLc9OfMSGN]^0n08c3
+!i10b 1

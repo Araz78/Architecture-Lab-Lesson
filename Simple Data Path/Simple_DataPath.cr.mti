@@ -1,0 +1,27 @@
+{C:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p5/simple_datapath.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity simple_datapath
+-- Compiling architecture structural of simple_datapath
+-- Loading entity regne
+-- Loading entity mux4to1
+
+} {} {}} {C:/Users/Araz/Desktop/for osi/p5/regne.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p5/regne.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regne
+-- Compiling architecture behavioral of regne
+
+} {} {}} {C:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd} {1 {vcom -work work -2002 -explicit -vopt {C:/Users/Araz/Desktop/for osi/p5/mux4to1.vhd}
+Model Technology ModelSim SE-64 vcom 10.1c Compiler 2012.07 Jul 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4to1
+-- Compiling architecture dataflow of mux4to1
+
+} {} {}}
