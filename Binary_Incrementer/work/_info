@@ -1,0 +1,83 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+T_opt
+VT8=WORLH;cWOW5fdbKT@e3
+04 18 10 work binary_incrementer structural 1
+=1-0800274cca5b-5fe4b899-361-9ac
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+Ebinary_incrementer
+Z0 w1608824947
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Araz\Desktop\for osi\p1
+Z4 8C:/Users/Araz/Desktop/for osi/p1/Binary_Incrementer.vhd
+Z5 FC:/Users/Araz/Desktop/for osi/p1/Binary_Incrementer.vhd
+l0
+L4
+VJ:KlGfBO9CkD8JI@ij>J:1
+Z6 OL;C;10.1c;51
+32
+Z7 !s108 1608824951.506000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p1/Binary_Incrementer.vhd|
+Z9 !s107 C:/Users/Araz/Desktop/for osi/p1/Binary_Incrementer.vhd|
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 I09BHH?^GmF;jf<k;M58F2
+!i10b 1
+Astructural
+Z12 DEx4 work 10 half_adder 0 22 9XMAKl=;CP>GaUKl2zGzU1
+R1
+R2
+DEx4 work 18 binary_incrementer 0 22 J:KlGfBO9CkD8JI@ij>J:1
+l14
+L11
+VGj[30YgV7bae]bXjfAM>g0
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 QFG:4H9J0nFdIidC4F69o3
+!i10b 1
+Ehalf_adder
+Z13 w1608821450
+R1
+R2
+R3
+Z14 8C:/Users/Araz/Desktop/for osi/p1/Half_Adder.vhd
+Z15 FC:/Users/Araz/Desktop/for osi/p1/Half_Adder.vhd
+l0
+L4
+V9XMAKl=;CP>GaUKl2zGzU1
+R6
+32
+Z16 !s108 1608821456.357000
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|C:/Users/Araz/Desktop/for osi/p1/Half_Adder.vhd|
+Z18 !s107 C:/Users/Araz/Desktop/for osi/p1/Half_Adder.vhd|
+R10
+R11
+!s100 F0SD:m4D>8f;lgTTRcf>z1
+!i10b 1
+Adataflow
+R1
+R2
+R12
+l14
+L12
+VBmh7iMcZ]bOH1jTG8NREF1
+R6
+32
+R16
+R17
+R18
+R10
+R11
+!s100 ;IdZO2j]TLnW230dO@njm1
+!i10b 1
